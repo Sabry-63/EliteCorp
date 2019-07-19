@@ -14,7 +14,7 @@ $(function () {
 
         //aintame to el
         $('html, body').animate({
-            scrollTop: $('#' + $(this).data('scroll')).offset().top + 2
+            scrollTop: $('#' + $(this).data('scroll')).offset().top + 1
         }, 2000);
     });
 
@@ -67,9 +67,4 @@ $(function () {
             $($(this).data('class')).css('opacity', 1);
         }
     });
-
-
-
-
-
 });

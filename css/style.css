@@ -39,7 +39,6 @@ body{
     .uper-bar div {
         text-align: center !important;
     }
-    .uper-bar span { display: block;}
 }
 /* End uper bar */
 /* Start navbar -----------------------------------------------------------*/
@@ -121,9 +120,9 @@ nav i.icon{
 }
 @media (max-width: 767px){
     .slider .carousel h1{
-        font-size: 40px;
+        font-size: 30px;
         max-width: 100%;
-        left: 30px;
+        left: 50px;
         text-align: center
     }
 }
@@ -313,9 +312,10 @@ nav i.icon{
 }
 .pric .card {
     box-shadow: 2px 2px 10px#999;
-    margin: 30px 0;
+    margin: 30px 10px;
     transition: all .5s ease-in;
 }
+.pric .card:hover{ margin: 0 5px 30px}
 .pric .card .card-title{ color: #08526d;}
 .pric .card .card-subtitle{ color: #777}
 .pric .card .card-text{
@@ -336,7 +336,6 @@ nav i.icon{
     padding: 8px 35px;
     transition: all .5s ease-in;
 }
-.pric .card:hover{ margin: 0 0 30px}
 .pric .card :hover> button{
     border: 1px solid #08526d;
     background-color: #08526d;
